@@ -86,13 +86,6 @@ Execute with a valid .cub map file:
 
 ## Resources
 
-- **Learning Resources Used During Development**
-  - [**The Linux Programming Interface**](#) by Michael Kerrisk - Comprehensive guide to system programming
-
-- **Additional References**
-  - [Bash Manual](https://www.gnu.org/software/bash/manual/)
-  - [Unix System Calls](https://man7.org/linux/man-pages/)
-
 ---
 ## **License**
 This project is part of the 42 School curriculum.

@@ -30,12 +30,10 @@ Cub3D is a 3D graphics project inspired by the legendary Wolfenstein 3D, the fir
 ---
 
 ## **Getting Started**  
-### 1. Installation  
-Clone the repository:  
-  ```bash
-  git clone https://github.com/Amine-Salmi/minishell.git
-  cd minishell
-  ```
+### 1. Prerequisites
+
+- [Download and build MLX42](https://github.com/codam-coding-college/MLX42?tab=readme-ov-file#download-and-build---mlx42)
+
 ### 2. Build the Project  
 Compile the shell:
   ```bash

@@ -31,56 +31,54 @@ Cub3D is a 3D graphics project inspired by the legendary Wolfenstein 3D, the fir
 
 ## **Getting Started**  
 ### 1. Prerequisites
-
 - [Download and build MLX42](https://github.com/codam-coding-college/MLX42?tab=readme-ov-file#download-and-build---mlx42)
+- Follow the installation instructions in the repository
 
-### 2. Build the Project  
-Compile the shell:
+### 2. Clone and Build 
+Clone the repository and compile:
   ```bash
+  git clone https://github.com/Amine-Salmi/cub3d.git
+  cd cub3d
   make
   ```
-### 3. Run the Shell
-Execute the minishell:
+### 3. Run the Game
+Execute with a valid .cub map file:
   ```bash
-  ./minishell
+  ./cub3D maps/sample.cub
   ```
 
 ---
 
 ## **Usage Examples**
-###  Basic Commands
-  ```bash
-  -  minishell$ pwd
-  /home/user/minishell
-  -  minishell$ echo "Hello world"
-  Hello world
-  -  minishell$ ls -la
-  ```
-### Pipes and Redirection
-  ```bash
-  -  minishell$ ls | grep .c
-  -  minishell$ echo "test" > output.txt
-  -  minishell$ cat < input.txt
-  -  minishell$ ls >> log.txt
-  ```
+###  Controls
+  - **Movement**: W, A, S, D keys to navigate through the maze
+  - **Rotation**: Left/Right arrow keys to look around
+  - **Exit**: ESC key or click the window's red cross to quit
 
-### Pipes and Redirection
+### Sample Map File (.cub format)
   ```bash
-  -  minishell$ export MY_VAR=hello
-  -  minishell$ echo $MY_VAR
-  hello
-  -  minishell$ echo $?
-  0
-  ```
+  NO ./textures/north_wall
+  SO ./textures/south_wall 
+  WE ./textures/west_wall
+  EA ./textures/east_wall
 
-### Heredoc
-  ```bash
-  -  minishell$ cat << EOF
-  > This is a heredoc
-  > Multiple lines supported
-  > EOF
-  This is a heredoc
-  Multiple lines supported
+  F 220,100,0
+  C 225,30,0
+
+  1111111111111111111111111
+  1000000000110000000000001
+  1011000001110000000000001  
+  1001000000000000000000001
+  111111111011000001110000000000001
+  100000000011000001110111111111111
+  11110111111111011100000010001
+  11110111111111011101010010001
+  11000000110101011100000010001
+  10000000000000001100000010001
+  10000000000000001101010010001
+  11000001110101011111011110N0111
+  11110111 1110101 101111010001
+  11111111 1111111 111111111111
   ```
 
 ---

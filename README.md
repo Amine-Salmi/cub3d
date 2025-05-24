@@ -92,11 +92,11 @@ Execute with a valid .cub map file:
 
 ## Map Configuration
 
-- 0: 
-- 1:
-- N/S/E/W:
-- Textures:
-- Colors:
+- ### 0: 
+- ### 1:
+- ### N/S/E/W:
+- ### Textures:
+- ### Colors:
 
 ## Resources
 

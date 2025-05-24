@@ -84,6 +84,10 @@ Execute with a valid .cub map file:
 
 ---
 
+## Game Screenshots
+<img src="https://github.com/Amine-Salmi/so_long/issues/1#issue-3088585507" alt="Cub3D Gameplay">
+---
+
 ## Resources
 
 ---

@@ -85,9 +85,18 @@ Execute with a valid .cub map file:
 ---
 
 ## Game Screenshots
+
 <img width="1999" alt="Image" src="https://github.com/user-attachments/assets/8ffd3df0-62c8-4e22-ba29-dae690939e54" />
-<!-- <img src="https://github.com/Amine-Salmi/so_long/issues/1#issue-3088585507" alt="Cub3D Gameplay"> -->
+
 ---
+
+## Map Configuration
+
+- 0: 
+- 1:
+- N/S/E/W:
+- Textures:
+- Colors:
 
 ## Resources
 
